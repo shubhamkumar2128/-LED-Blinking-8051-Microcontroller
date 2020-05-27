@@ -13,3 +13,7 @@ In this method, we use the sbit (single bit) keyword to select the port pin. It 
 
 Syntax to use sbit
 sbit   Any_Name  =   Px^y;
+
+
+x is port 0,1,2 or 3.
+y is pin o,1,..7.
