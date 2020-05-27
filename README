@@ -1,0 +1,15 @@
+# LED-Blinking-8051-Microcontroller
+
+Steps to write the Program
+
+Firstly you have to select the port pin for led.
+You have to configure the pin as an output to write the first value 0.
+Now pin configured as the output, if you have passed 1 or 0 on that pin it will directly reflect on it.
+
+Here I am describing some method to write a led toggling program
+Method 1
+
+In this method, we use the sbit (single bit) keyword to select the port pin. It allows accessing of a single bit of an SFR register.
+
+Syntax to use sbit
+sbit   Any_Name  =   Px^y;
